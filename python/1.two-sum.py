@@ -1,15 +1,13 @@
-#https://leetcode.com/problems/two-sum/
-
 class Solution(object):
-    #Approach 1
-    #time: O(n^2)
-    #space: O(1)
     def twoSum(self, nums, target):
         """
         :type nums: List[int]
         :type target: int
         :rtype: List[int]
         """
+        #Approach 1
+        #time: O(n^2)
+        #space: O(1)
         #method 1
         #2 for loop in for loop 
         #for i in range(0, len(nums) -1):
@@ -18,7 +16,6 @@ class Solution(object):
         #        sec_num = nums[j]
         #        if first_num + sec_num == target:
         #            return [i, j]
-        
         #method 2
         #use arr
         tmp_arr = {}
