@@ -4,6 +4,8 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
+        #t: N^2
+        #s: N
         nums.sort()
         ans_arr = []
         

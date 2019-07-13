@@ -4,6 +4,9 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        #meth use dynamic Programming
+        #t O(n)
+        #s O(1)
         max_sum = current_sum = nums[0]
         #print(current_sum)
 

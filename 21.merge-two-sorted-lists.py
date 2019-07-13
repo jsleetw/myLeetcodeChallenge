@@ -5,6 +5,8 @@
 #         self.next = None
 
 class Solution(object):
+    # T: N
+    # S: 1
     def mergeTwoLists(self, l1, l2):
         prehead = ListNode(-1)
         prev = prehead

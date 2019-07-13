@@ -4,6 +4,8 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
+        #t: O(n+1)
+        #s: O(n)
         num_map = {
             "I" : 1,
             "V" : 5,

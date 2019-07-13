@@ -1,4 +1,6 @@
 class Solution(object):
+    #T: N/2
+    #S: 1
     def isStrobogrammatic(self, num):
         map_arr = {
             "0":"0",

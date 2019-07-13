@@ -4,6 +4,8 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
+        #t: n
+        #s: n
         if not strs:
             return ""
 

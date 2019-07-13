@@ -4,6 +4,8 @@ class Solution(object):
         :type x: int
         :rtype: int
         """
+        # T: N
+        # S: 1
         rev = 0
         is_neg = False
         

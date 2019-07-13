@@ -5,6 +5,8 @@ class Solution(object):
         :type target: int
         :rtype: List[List[int]]
         """
+        # t: N^2
+        # s: N
         ans = []
         #use pairs
         allPairSum = {}

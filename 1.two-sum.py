@@ -18,6 +18,8 @@ class Solution(object):
         #            return [i, j]
         #method 2
         #use arr
+        #t O(n)
+        #s O(n)
         tmp_arr = {}
         for k, v in enumerate(nums):
             match_num = target - v

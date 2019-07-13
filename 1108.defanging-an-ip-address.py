@@ -4,6 +4,8 @@ class Solution(object):
         :type address: str
         :rtype: str
         """
+        #t: O(n)
+        #s: O(n)
         ans_str = ""
         for k, v in enumerate(address):
             #print(k, v)
