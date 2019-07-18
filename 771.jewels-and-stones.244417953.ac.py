@@ -6,6 +6,7 @@ class Solution(object):
         :rtype: int
         """
         count = 0
+        J = set(J)
         for s in S:
             if s in J:
                 count+=1
