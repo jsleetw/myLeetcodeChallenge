@@ -11,7 +11,7 @@ class Solution(object):
             for i in str(n):
                 sum += int(i)*int(i)
             n = sum
-
+            #avoid unstop loop
             if n in mem:
                 return False
             else:
